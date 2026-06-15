@@ -1,0 +1,160 @@
+@import url('https://googleapis.com');
+
+
+        body {
+            background: linear-gradient(180deg, #5d4037,#e3d2be);
+            font-family: 'Quicksand', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            
+        }
+
+        .id-card {
+            background-color: #f7ede2;
+            width: 450px;
+            border-radius: 36px;
+            padding: 25px;
+            box-shadow: 0 15px 0 #e3d2be, 0 25px 30px rgba(0,0,0,0.1);
+            position: relative;
+            border: 4px solid #fff;
+        }
+
+        .card-title {
+            font-family: 'Fredoka One', cursive;
+            font-size: 32px;
+            color: #6d4c41;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+            text-shadow: 1px 1px 0px #fff;
+        }
+
+        .main-content {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .avatar-box {
+            background-color: #fffdec;
+            width: 130px;
+            height: 140px;
+            border-radius: 24px;
+            border: 3px solid #eedec9;
+            box-shadow: inset 0 5px 10px rgba(0,0,0,0.05);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+
+     
+        .avatar-placeholder {
+            font-size: 50px;
+        }
+
+        .info-box {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            color: #5d4037;
+            font-size: 17px;
+        }
+
+        .info-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .info-label {
+            font-weight: 900;
+            font-size: 18px;
+            color: #4e342e;
+        }
+
+        .info-value {
+            font-weight: 700;
+            color: #6d4c41;
+        }
+
+        .footer-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 25px;
+            padding-top: 15px;
+            border-top: 2px dashed #e3d2be;
+        }
+
+        .date-box {
+            font-size: 14px;
+            color: #5d4037;
+            font-weight: 800;
+        }
+
+        .date-box span {
+            display: block;
+            font-size: 15px;
+            color: #4e342e;
+            font-weight: 900;
+        }
+
+        .stamps {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .signature-area {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .mini-badge {
+            width: 45px;
+            height: 45px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #ffedd5, #fdba74);
+            border: 2px solid #fff;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .sig-name {
+            font-family: 'Fredoka One', cursive;
+            font-size: 16px;
+            color: #4e342e;
+            margin-top: 4px;
+            transform: rotate(-5deg);
+        }
+        
+        .official-seal {
+            background-color: #4e342e;
+            color: #fffdec;
+            padding: 6px 12px;
+            border-radius: 10px;
+            font-size: 11px;
+            font-weight: 900;
+            text-transform: uppercase;
+            border: 2px solid #eedec9;
+            box-shadow: 0 4px 0 #3e2723;
+            text-align: center;
+            line-height: 1.2;
+        }
+        .cards-container{
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            width:200%;
+        }
